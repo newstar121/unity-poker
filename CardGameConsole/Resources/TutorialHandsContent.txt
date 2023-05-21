@@ -1,0 +1,19 @@
+
+	
+			╔════════════════════════════════════════════════════════════════╗
+			║                          Poker Hands                           ║
+			║                     ----------------------                     ║
+			║  The following poker hands are listed in order of most value:  ║           
+			║   Royal Flush - Ace, King, Queen, Jack, 10, all the same suit  ║
+			║   Straight Flush - Five cards in a sequence, all the same suit ║
+			║   Four of a kind - All four cards of the same rank.            ║
+			║   Full House - Three of a kind with a pair.                    ║
+			║   Flush - Any five cards of the same suit, not in a sequence.  ║
+			║   Straight - Five cards in a sequence, not of the same suit.   ║
+			║   Three of a kind - Three cards of the same rank.              ║
+			║   Two Pair - Two different pairs.                              ║
+			║   One Pair - Two cards of the same rank.                       ║
+			║   High Card - The card of the highest rank.                    ║	
+			║                                                                ║
+			║  [<] Showdown                       Return to Main Menu [ESC]  ║
+			╚════════════════════════════════════════════════════════════════╝

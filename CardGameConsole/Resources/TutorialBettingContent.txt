@@ -1,0 +1,19 @@
+
+
+			╔════════════════════════════════════════════════════════════════╗
+			║                         Betting Rounds                         ║
+			║                     ----------------------                     ║
+			║  There are two betting rounds.                                 ║
+			║                                                                ║
+			║  The first betting round starts after each player has anteed   ║
+			║  up. After the first betting round, each player has the chance ║
+			║  to mulligan upto 3 cards in their hand.                       ║
+			║                                                                ║
+			║  After each player has mulliganed, the second betting round    ║
+			║  starts. After the bets are placed, players remaining in the   ║
+			║  game showdown.                                                ║
+			║                                                                ║
+			║                                                                ║
+			║                                                                ║
+			║  [<] Introduction                                Showdown [>]  ║
+			╚════════════════════════════════════════════════════════════════╝

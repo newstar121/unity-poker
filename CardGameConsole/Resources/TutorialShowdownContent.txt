@@ -1,0 +1,19 @@
+
+
+			╔════════════════════════════════════════════════════════════════╗
+			║                           Showdown                             ║
+			║                     ----------------------                     ║
+			║  During showdown, players left in the game reveal and compare  ║    
+			║  their hands to determine a winner.                            ║
+			║                                                                ║
+			║  The player with the most valuable poker hand takes the pot    ║
+			║  and in the event of a tie, the player with the most valuable  ║
+			║  high card will take the pot.                                  ║
+			║                                                                ║
+			║  The round concludes after a winner is determined and the pot  ║
+			║  is awarded. The player has the option to cash out, which ends ║
+			║  the game, or play another hand which starts another round.    ║
+			║                                                                ║	
+			║                                                                ║
+			║  [<] Betting Rounds                           Poker Hands [>]  ║
+			╚════════════════════════════════════════════════════════════════╝
