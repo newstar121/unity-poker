@@ -1,0 +1,19 @@
+﻿
+
+                        ╔════════════════════════════════════════════════════════════════╗
+                        ║                          Introduction                          ║
+                        ║                     ----------------------                     ║
+                        ║  This game is a simplified variant of five card draw.          ║          
+                        ║                                                                ║
+                        ║  Each player starts with $100 and if the player runs out of    ║
+                        ║  money, the player keeps withdrawing another $100.             ║
+                        ║                                                                ║
+                        ║  At the start of each round, each player antees and is         ║
+                        ║  dealt five cards by the dealer. There are also two betting    ║
+                        ║  rounds.                                                       ║
+                        ║                                                                ║
+                        ║  All antees and bets are added to the pot which is awarded to  ║
+                        ║  the winner.                                                   ║	
+                        ║                                                                ║
+                        ║  [<] Return to Main Menu                   Betting Rounds [>]  ║
+                        ╚════════════════════════════════════════════════════════════════╝

@@ -28,6 +28,37 @@ namespace CardLibrary
             int maxCardIndex = hand.Length - 1;
 
             // Checks the suit of the first card with the last card and if they are equal, it's a flush
+            return hand[0].Suit.Equals(hand[maxCardIndex].Suit);
+
+        } 
+
+
+        /// <summary>
+        /// Checks for a straight hand.
+        /// </summary>
+        /// <remarks>A straight hand is 5 cards of sequential rank.</remarks>
+        /// <param name="hand">The player's hand.</param>
+        /// <returns>Returns true if the hand is a straight; returns false otherwise.</returns>
+        public static bool IsStraight(Card[] hand)
+        {
+            // Sort hand by rank.
+            hand = hand.OrderBy(item => (int)item.Rank).ToArray();
+
+            // Increments the rank of the current position by 1, beginning the sequence.
+            int sequentialRank = (int)hand[0].Rank + 1;
+
+            // If the next card does not match the sequence, the loop breaks. Otherwise, it succeeds.
+            for (int i = 1; i < hand.Length; i++)
+            {
+                if ((int)hand[i].Rank != sequentialRank++)
+                    return false;
+            }
+
+            return true;
+
+        } 
+
+        /// <summary>
         /// Checks for a straight flush hand.
         /// </summary>
         /// <remarks>A straight flush hand is a 5 cards of the same suit in sequential rank.</remarks>

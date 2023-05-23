@@ -28,3 +28,10 @@ namespace PokerSessionLibrary
                 case PlayerType.Human:
                     return new Player(playerName, House.InitialStack);
                 case PlayerType.Computer:
+                    return new Computer(playerName, House.InitialStack);
+                default:
+                    throw new InvalidEnumArgumentException("Invalid player type, could not construct player.");
+            }
+        }
+    }
+}
